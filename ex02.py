@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 def f(x):
     return x**2
 
+
 def draw():
     x = np.linspace(-0.5, 2.5, 400)
     y = f(x)
